@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+  </head>
+  <body ng-app="app">
+    <div ng-controller="appCtrl">
+      <label for="CC">Choose a Channel or Campaign</label>
+      <input type="text"
+             id="CC"
+             class="form-control input-sm"
+             ng-model="result"
+             typeahead="result for result in searchInJson($viewValue)"
+             typeahead-on-select="onSelect($item, $model, $label)">
+      <p>Clicks <span class="numbers">{{Clicks}}</span> Impression <span class="numbers">{{Impression}}</span></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "campaign":"Lorem ipsum dolor sit amet",
+    "channel":"Donec",
+    "clicks":"185",
+    "impressions":"8760"
+  },
+  {
+    "campaign":"Fusce eleifend nisi vitae ante",
+    "channel":"Aenean",
+    "clicks":"203",
+    "impressions":"5966"
+  },
+  {
+    "campaign":"Phasellus suscipit purus",
+    "channel":"Donec",
+    "clicks":"897",
+    "impressions":"15324"
+  },
+  {
+    "campaign":"Lorem ipsum dolor sit amet",
+    "channel":"Donec",
+    "clicks":"121",
+    "impressions":"3002"
+  },
+  {
+    "campaign":"Fusce eleifend nisi vitae ante",
+    "channel":"Aenean",
+    "clicks":"259",
+    "impressions":"6738"
+  },
+  {
+    "campaign":"Fusce eleifend nisi vitae ante",
+    "channel":"Aenean",
+    "clicks":"76",
+    "impressions":"712"
+  }
+]

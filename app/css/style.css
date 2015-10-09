@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+  #CC {
+    width: 15%;
+    border: 1px solid gray;
+    margin-bottom: 50px;
+  }
+  .numbers {
+    color: red;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+  }
